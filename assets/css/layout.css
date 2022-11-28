@@ -1,0 +1,51 @@
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  align-content: center;
+}
+
+.row::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+
+
+.column{
+    float: left;
+    padding: 0 5px;
+}
+
+@media (max-width: 700px){
+    .links{
+        width: 100%
+    }
+    .navigation {
+        height: 300px
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 2040px) {
+    .column {
+      width: 33%;
+    }
+  }
+
+@media (min-width: 700px) and (max-width: 1200px) {
+  .column {
+    width: 50%;
+  }
+}
+
+@media (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+
+

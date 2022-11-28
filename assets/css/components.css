@@ -1,0 +1,22 @@
+.navigation {
+  background: linear-gradient(rgba(216, 112, 147, 1), rgba(208, 112, 80, 1));
+  display: block;
+}
+
+img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  object-position: center;
+  margin: 10px auto;
+}
+
+.home-image {
+  width: 100%;
+  height: 500px;
+  object-fit: contain;
+}
+
+p.column{
+    padding: 20px 20px;
+}
